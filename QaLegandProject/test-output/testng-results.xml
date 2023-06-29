@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="5" ignored="6" total="22" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-29T15:34:08 IST" name="Suite" finished-at="2023-06-29T15:34:29 IST" duration-ms="21827">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifySignInvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" name="verifySignInvalidUserinvalidPassword" class="com.QaLegandProject.scripts.LoginTest"/>
+        <method signature="LoginTest.verifySignIninvalidUservalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" name="verifySignIninvalidUservalidPassword" class="com.QaLegandProject.scripts.LoginTest"/>
+        <method signature="LoginTest.verifySignIninvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" name="verifySignIninvalidUserinvalidPassword" class="com.QaLegandProject.scripts.LoginTest"/>
+        <method signature="HomeTest.verifyingClientMoreInfoButton()[pri:5, instance:com.QaLegandProject.scripts.HomeTest@13fd2ccd]" name="verifyingClientMoreInfoButton" class="com.QaLegandProject.scripts.HomeTest"/>
+        <method signature="CustomerTest.verifyingShowEntries()[pri:6, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" name="verifyingShowEntries" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.deleteselectedrow()[pri:7, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" name="deleteselectedrow" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.verifyingClientAddition()[pri:8, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" name="verifyingClientAddition" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.verifyingPageNavigation()[pri:9, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" name="verifyingPageNavigation" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.checkcalender()[pri:10, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" name="checkcalender" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" name="verifyingpictureUpload" class="com.QaLegandProject.scripts.CustomerTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-29T15:34:08 IST" name="Test" finished-at="2023-06-29T15:34:29 IST" duration-ms="21827">
+      <class name="com.QaLegandProject.Base.TestBase">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.QaLegandProject.Base.TestBase@27f981c6]" started-at="2023-06-29T15:34:08 IST" name="beforeTest" finished-at="2023-06-29T15:34:11 IST" duration-ms="3444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.QaLegandProject.Base.TestBase@27f981c6]" started-at="2023-06-29T15:34:29 IST" name="afterTest" finished-at="2023-06-29T15:34:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.QaLegandProject.Base.TestBase -->
+      <class name="com.QaLegandProject.scripts.HomeTest">
+        <test-method signature="verifyingClientMoreInfoButton()[pri:5, instance:com.QaLegandProject.scripts.HomeTest@13fd2ccd]" started-at="2023-06-29T15:34:15 IST" name="verifyingClientMoreInfoButton" description="verify the user is able to check clieninfobutton" finished-at="2023-06-29T15:34:18 IST" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingClientMoreInfoButton -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.HomeTest@13fd2ccd]" started-at="2023-06-29T15:34:18 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingClientMoreInfoButton status=SUCCESS method=HomeTest.verifyingClientMoreInfoButton()[pri:5, instance:com.QaLegandProject.scripts.HomeTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.QaLegandProject.scripts.HomeTest -->
+      <class name="com.QaLegandProject.scripts.LoginTest">
+        <test-method signature="verifySignInvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:12 IST" name="verifySignInvalidUserinvalidPassword" description="verifying valid Username with invalidPassword" data-provider="validUserinvalidPassword" finished-at="2023-06-29T15:34:12 IST" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInvalidUserinvalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:12 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:12 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInvalidUserinvalidPassword status=SUCCESS method=LoginTest.verifySignInvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.QaLegandProject.scripts.LoginTest@48aca48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySignIninvalidUservalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:12 IST" name="verifySignIninvalidUservalidPassword" description="verifying invalid Username with  validPassword" data-provider="invalidUservalidPassword" finished-at="2023-06-29T15:34:13 IST" duration-ms="801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[legand@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIninvalidUservalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:13 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignIninvalidUservalidPassword status=SUCCESS method=LoginTest.verifySignIninvalidUservalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.QaLegandProject.scripts.LoginTest@48aca48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySignIninvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:13 IST" name="verifySignIninvalidUserinvalidPassword" description="verifying invalid Username with  invalidPassword" data-provider="invalidUserinvalidPassword" finished-at="2023-06-29T15:34:14 IST" duration-ms="506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manage@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIninvalidUserinvalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:14 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignIninvalidUserinvalidPassword status=SUCCESS method=LoginTest.verifySignIninvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.QaLegandProject.scripts.LoginTest@48aca48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySignInvalidUservalidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:14 IST" name="verifySignInvalidUservalidPassword" description="verifying valid Username with  validPassword" data-provider="validUservalidPassword" finished-at="2023-06-29T15:34:15 IST" duration-ms="1636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInvalidUservalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@48aca48b]" started-at="2023-06-29T15:34:15 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInvalidUservalidPassword status=SUCCESS method=LoginTest.verifySignInvalidUservalidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.QaLegandProject.scripts.LoginTest@48aca48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.QaLegandProject.scripts.LoginTest -->
+      <class name="com.QaLegandProject.scripts.CustomerTest">
+        <test-method signature="verifyingShowEntries()[pri:6, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:18 IST" name="verifyingShowEntries" description="verifying the selected value is listed on the entries list" finished-at="2023-06-29T15:34:18 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingShowEntries -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:18 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingShowEntries status=SUCCESS method=CustomerTest.verifyingShowEntries()[pri:6, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="deleteselectedrow()[pri:7, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:18 IST" name="deleteselectedrow" description="verify user is able to delete the selected row using action button" finished-at="2023-06-29T15:34:19 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteselectedrow -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:19 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteselectedrow status=SUCCESS method=CustomerTest.deleteselectedrow()[pri:7, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyingClientAddition()[pri:8, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:19 IST" name="verifyingClientAddition" description="verifying the name of client is added to the specific row " finished-at="2023-06-29T15:34:19 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingClientAddition -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:19 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingClientAddition status=SUCCESS method=CustomerTest.verifyingClientAddition()[pri:8, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyingPageNavigation()[pri:9, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:19 IST" name="verifyingPageNavigation" description="verify user is able to navigate to the page from the current location" finished-at="2023-06-29T15:34:20 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingPageNavigation -->
+        <test-method signature="checkcalender()[pri:10, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:20 IST" name="checkcalender" description="verifying the page is scroll upto calender text" finished-at="2023-06-29T15:34:20 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcalender -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:20 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingPageNavigation status=SUCCESS method=CustomerTest.verifyingPageNavigation()[pri:9, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:20 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkcalender status=SUCCESS method=CustomerTest.checkcalender()[pri:10, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method retried="true" signature="verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:20 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T15:34:21 IST" duration-ms="1710" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.QaLegandProject.scripts.CustomerTest.verifyingpictureUpload(CustomerTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:21 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=SKIP method=CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method retried="true" signature="verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:21 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T15:34:23 IST" duration-ms="1613" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.QaLegandProject.scripts.CustomerTest.verifyingpictureUpload(CustomerTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method retried="true" signature="verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:23 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T15:34:25 IST" duration-ms="1645" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.QaLegandProject.scripts.CustomerTest.verifyingpictureUpload(CustomerTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:23 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=SKIP method=CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method retried="true" signature="verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:25 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T15:34:26 IST" duration-ms="1614" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.QaLegandProject.scripts.CustomerTest.verifyingpictureUpload(CustomerTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:25 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=SKIP method=CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:26 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=SKIP method=CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method retried="true" signature="verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:26 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T15:34:28 IST" duration-ms="1680" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.QaLegandProject.scripts.CustomerTest.verifyingpictureUpload(CustomerTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method signature="verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:28 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T15:34:29 IST" duration-ms="1565" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.QaLegandProject.scripts.CustomerTest.verifyingpictureUpload(CustomerTest.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:28 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=SKIP method=CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0]" started-at="2023-06-29T15:34:29 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T15:34:29 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=FAILURE method=CustomerTest.verifyingpictureUpload()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot format given Object as a Date]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot format given Object as a Date
+at java.base/java.text.DateFormat.format(DateFormat.java:342)
+at java.base/java.text.Format.format(Format.java:159)
+at com.QaLegandProject.Base.TestBase.takeScreenShotOnFailure(TestBase.java:65)
+at com.QaLegandProject.Base.TestBase.takeScreenShotOnFailure(TestBase.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.QaLegandProject.scripts.CustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
